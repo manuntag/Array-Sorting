@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A7665011A6DCDD7005C96EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7665001A6DCDD7005C96EB /* main.m */; };
+		8A7665091A6DCDFE005C96EB /* SortingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7665081A6DCDFE005C96EB /* SortingTools.m */; };
+		8A76650C1A6DCE31005C96EB /* Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76650B1A6DCE31005C96EB /* Lists.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		8A7664FD1A6DCDD7005C96EB /* Array Sorting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Array Sorting"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7665001A6DCDD7005C96EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A7665071A6DCDFE005C96EB /* SortingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortingTools.h; path = ../SortingTools.h; sourceTree = "<group>"; };
+		8A7665081A6DCDFE005C96EB /* SortingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SortingTools.m; path = ../SortingTools.m; sourceTree = "<group>"; };
+		8A76650A1A6DCE31005C96EB /* Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lists.h; path = ../Lists.h; sourceTree = "<group>"; };
+		8A76650B1A6DCE31005C96EB /* Lists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lists.m; path = ../Lists.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		8A7664FF1A6DCDD7005C96EB /* Array Sorting */ = {
 			isa = PBXGroup;
 			children = (
+				8A76650A1A6DCE31005C96EB /* Lists.h */,
+				8A76650B1A6DCE31005C96EB /* Lists.m */,
+				8A7665071A6DCDFE005C96EB /* SortingTools.h */,
+				8A7665081A6DCDFE005C96EB /* SortingTools.m */,
 				8A7665001A6DCDD7005C96EB /* main.m */,
 			);
 			path = "Array Sorting";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A76650C1A6DCE31005C96EB /* Lists.m in Sources */,
+				8A7665091A6DCDFE005C96EB /* SortingTools.m in Sources */,
 				8A7665011A6DCDD7005C96EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
